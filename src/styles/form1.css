@@ -1,0 +1,54 @@
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 2.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.heading h3 {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.inputs {
+    margin-top: 80px;
+}
+
+.inputs button {
+    width: 160px;
+}
+
+.buttons {
+    padding-top: 150px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.button1 {
+    width: 150px;
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.button2 {
+    width: 150px;
+    background-color: blue;
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid blue;
+    cursor: pointer;
+    margin: 0px 10px;
+}
