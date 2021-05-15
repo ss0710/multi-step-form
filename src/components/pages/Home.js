@@ -4,6 +4,7 @@ import SignUp from './SignUp';
 import Form1 from '../forms/Form1';
 import {Route , Switch} from 'react-router-dom';
 import Gender from '../forms/Gender';
+import JuniorAgeRange from '../forms/JuniorAgeRange';
 
 const Home = () => {
     return (
@@ -14,7 +15,8 @@ const Home = () => {
                 <Route exact path="/" component={() => <SignUp />}/>
                 <Route exact path="/Form1" component={() => <Form1 /> }/>
                 <Route exact path="/Gender" component={() => <Gender /> }/>
-              </Switch> 
+                <Route exact path="/JuniorAgeRange" component={() => <JuniorAgeRange /> }/>
+            </Switch> 
             </div>
             </div>
         </div>

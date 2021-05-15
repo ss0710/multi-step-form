@@ -100,7 +100,7 @@ const Form1 = () => {
 
             <div className="buttons">
                 <NavLink to='/' exact activeClassName="active"><button className="button1">Back</button></NavLink>
-                <NavLink to='/Gender' exact activeClassName="active"><button className="button2">Next</button></NavLink>
+                <NavLink to={ (options[selectedIndex] === 'Adult') ? '/Gender' : '/JuniorAgeRange'} exact activeClassName="active"><button className="button2">Next</button></NavLink>
             </div>
 
 
