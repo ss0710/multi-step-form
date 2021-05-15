@@ -10,6 +10,7 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
+import { NavLink } from 'react-router-dom';
 
 const Form1 = () => {
   const options = ['Adult', 'Junior'];
@@ -98,7 +99,7 @@ const Form1 = () => {
 
 
             <div className="buttons">
-                <button className="button1">Back</button>
+                <NavLink to='/' exact activeClassName="active"><button className="button1">Back</button></NavLink>
                 <button className="button2">Next</button>
             </div>
 
