@@ -3,6 +3,7 @@ import '../../styles/home.css';
 import SignUp from './SignUp';
 import Form1 from '../forms/Form1';
 import {Route , Switch} from 'react-router-dom';
+import Gender from '../forms/Gender';
 
 const Home = () => {
     return (
@@ -11,7 +12,8 @@ const Home = () => {
             <div className="container">
             <Switch>
                 <Route exact path="/" component={() => <SignUp />}/>
-                <Route exact path="/Form1" component={() => <Form1 /> } />
+                <Route exact path="/Form1" component={() => <Form1 /> }/>
+                <Route exact path="/Gender" component={() => <Gender /> }/>
               </Switch> 
             </div>
             </div>
